@@ -1,0 +1,1373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://www.indifi.com/blog/wp-content/uploads/2020/03/Offers-to-Customers-For-Travel-Agencies-.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+ .container ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 10px;
+    position: absolute;
+    left: 15%;
+}
+.container ul li{
+    display: inline-block;
+    align-items: flex-end;
+}
+.container  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 44px;
+    border: 1px transparent white;
+    transition: 0.6s ease;
+    border-radius: 10px;
+}
+
+ .container  ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+   
+    
+   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.container .heading{
+width: 50%;
+padding-top: 40px;
+position: absolute;
+left: 25%;
+top: 10%;
+align-items: center;
+text-align: center;
+
+}
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid rgb(255, 255, 255);
+   margin-bottom: 12px;
+   color: white;
+
+}
+.container .heading h3 span{
+    font-weight: 100;
+    color: white;
+
+}
+
+
+.search{
+    width: 330px;
+    float:right;
+    margin-left: 270px;
+    position: absolute;
+    left: 50%;
+}
+
+.srh{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 30px;
+    color: rgb(255, 252, 252);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+::placeholder{
+    color: white;
+}
+.bton{
+    position: absolute;
+    top: 22%;
+    width: 30%;
+    height: 43px;
+    background: yellow;
+    border: 2px solid black;
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srh:focus{
+    outline: none;
+}
+.container .logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 30%;
+   
+}
+.container .box .maldives{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    
+}
+.container .box .maldives img{
+   width: 100%;
+   padding-bottom: 15px;
+   border-radius: 7px;
+   
+}
+
+
+.container .heading1{
+    width: 50%;
+    padding-top: 40px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    align-items: center;
+    text-align: left;
+    
+    }
+    .container .heading1.s{
+        font-size: 3em;
+        font-weight: bolder;
+        border-bottom: 2px solid rgb(255, 255, 255);
+       margin-bottom: 12px;
+       color: white;
+    
+    }
+    .container .heading1 .s .k{
+        font-weight: 100;
+        color: white;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    
+    }
+
+    .container .heading2{
+        width: 50%;
+        padding-top: 40px;
+        position: absolute;
+        left: 2%;
+        top: 80%;
+        align-items: center;
+        text-align: left;
+    }
+
+    .container .heading2 .s{
+        font-size: 2em;
+        font-weight: bolder;
+       
+       margin-bottom: 12px;
+       color: white;
+    
+    }
+    .container .heading2 .s .k{
+        font-weight: 70;
+        color: white;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    
+    }
+
+    .container .heading3{
+        width: 50%;
+        padding-top: 40px;
+        position: absolute;
+        left: 2%;
+        top: 140%;
+        align-items: center;
+        text-align: left;
+    }
+
+    .container .heading3 .s{
+        font-size: 2em;
+        font-weight: bolder;
+       
+       margin-bottom: 12px;
+       color: white;
+    
+    }
+    .container .heading3 .s .k{
+        font-weight: 70;
+        color: white;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    
+    }
+
+/*packages*/
+
+.card{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card:hover .poster::before{
+    bottom: 0px;
+}
+
+
+
+.card .poster img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.card .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card:hover .details{
+    bottom: 0px;
+}
+
+.card .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card .details .rating .sp{
+    color: white;
+}
+
+.card .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.card .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/*card2*/
+
+.card1{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card1 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card1 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card1:hover .poster::before{
+    bottom: 0px;
+}
+
+.card1:hover .poster img{
+    backdrop-filter: blur(5px);
+}
+
+
+.card1 .poster img{
+    width: 100%;
+    transition: 0.8s;
+     
+}
+
+.card1 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+   
+}
+.card1:hover .details{
+    bottom: 0px;
+}
+
+.card1 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card1 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card1 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card1 .details .rating .sp{
+    color: white;
+}
+
+.card1 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card1 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card1 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card1 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card1 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card1 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/*card3*/
+
+.card2{
+    position: absolute;
+    top: 35%;
+    left: 68%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card2 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card2 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card2:hover .poster::before{
+    bottom: 0px;
+}
+
+
+.card2 .poster img{
+    width: 100%;
+    height: 350px;
+    transition: 0.8s;
+   
+    
+}
+
+.card2 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card2:hover .details{
+    bottom: 0px;
+}
+
+.card2 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card2 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card2 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card2 .details .rating .sp{
+    color: white;
+}
+
+.card2 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card2 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card2 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card2 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card2 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card2 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+.card3{
+    position: absolute;
+    top: 95%;
+    left: 3%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card3 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card3 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card3:hover .poster::before{
+    bottom: 0px;
+}
+
+
+.card3 .poster img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.card3 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card3:hover .details{
+    bottom: 0px;
+}
+
+.card3 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card3 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card3 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card3 .details .rating .sp{
+    color: white;
+}
+
+.card3 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card3 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card3 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card3 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card3 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card3 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+/*card5*/
+
+.card4{
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card4 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card4 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card4:hover .poster::before{
+    bottom: 0px;
+}
+
+.card4 .poster img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.card4 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card4:hover .details{
+    bottom: 0px;
+}
+
+.card4 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card4 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card4 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card4 .details .rating .sp{
+    color: white;
+}
+
+.card4 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card4 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card4 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card4 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+.card4 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card4 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/*card3*/
+
+.card5{
+    position: absolute;
+    top: 95%;
+    left: 68%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card5 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card5 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card5:hover .poster::before{
+    bottom: 0px;
+}
+
+.card5 .poster img{
+    width: 100%;
+    height: 350px;
+    transition: 0.8s;
+   
+    
+}
+
+.card5 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card5:hover .details{
+    bottom: 0px;
+}
+
+.card5 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card5 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card5 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card5 .details .rating .sp{
+    color: white;
+}
+
+.card5 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+.card5 .details .tags span:nth-child(2){
+    background: yellow;
+}
+.card5 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card5 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card5 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card5 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+.card6{
+    position: absolute;
+    top: 155%;
+    left: 3%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+}
+
+.card6 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card6 .poster::before{
+    content: '';
+    bottom: -170px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card6:hover .poster::before{
+    bottom: 0px;
+}
+
+
+.card6 .poster img{
+    width: 100%;
+    height: 350px;
+    transition: 0.8s;
+}
+
+.card6 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card6:hover .details{
+    bottom: 0px;
+}
+
+.card6 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card6 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card6 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card6 .details .rating .sp{
+    color: white;
+}
+
+.card6 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card6 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card6 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card6 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card6 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card6 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+/*card8*/
+
+.card7{
+    position: absolute;
+    top: 155%;
+    left: 35%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+}
+
+.card7 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card7 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card7:hover .poster::before{
+    bottom: 0px;
+}
+
+.card7 .poster img{
+    width: 100%;
+    height: 350px;
+    transition: 0.8s;
+}
+
+.card7 .details{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+}
+.card7:hover .details{
+    bottom: 0px;
+}
+
+.card7 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card7 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card7 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card7 .details .rating .sp{
+    color: white;
+}
+
+.card7 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card7 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card7 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card7 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+.card7 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card7 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/*card3*/
+
+.card8{
+    position: absolute;
+    top: 155%;
+    left: 68%;
+    width: 470px;
+    height: 350px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0,15px 35px rgba(0,0,0,0.5);
+}
+
+.card8 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card8 .poster::before{
+    content: '';
+    bottom: -180px;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%,transparent);
+    transition: 0.8s;
+    z-index: 1;
+  
+}
+
+.card8:hover .poster::before{
+    bottom: 0px;
+}
+
+.card8 .poster img{
+    width: 100%;
+    height: 350px;
+    transition: 0.8s;
+   
+    
+}
+
+.card8 .details{
+    position: absolute;
+    bottom: -141px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.6s;
+    margin-bottom: 5px;
+}
+.card8:hover .details{
+    bottom: 0px;
+}
+
+.card8 .details h3{
+    font-size: 1.2em;
+    color: white;
+}
+
+.card8 .details .rating{
+    position: relative;
+    padding: 0 5px;
+}
+.card8 .details .rating .fa-star{
+    color: gold;
+    font-size: 1em;
+}
+.card8 .details .rating .sp{
+    color: white;
+}
+
+.card8 .details .tags span:nth-child(2){
+    background: yellow;
+}
+
+.card8 .details .rating a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.card8 .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card8 .details .tags span{
+    padding: 2px 5px;
+    color: black;
+    background: skyblue;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.card8 .details .tags span a{
+    text-decoration: none;
+    color: black;
+}
+
+.card8 .details .info{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/*contactus*/
+.cont {
+    border: 2px transparent red;
+    position: absolute;
+    top: 15%;
+    height: 80%;
+    width: 80%;
+    background: transparent;
+}
+header{
+    position: absolute;
+    text-align: center;
+    top: -2%;
+    left: 12%;
+    top: 2rem;
+    width: 75%;
+}
+header h2{
+    color: white;
+    font-weight: 600;
+}
+header p{
+    color: white;
+    font-weight: 300;
+}
+.contform{
+    border: 2px transparent blue;
+    width: 40%;
+    height: 100%;
+    display: inline;
+    min-height: 110vh;
+    position: relative;
+    top: 25%;
+    color: white;
+}
+
+.contform section a{
+    color: white;
+}
+
+
+
+
+.for{
+    display: flex;
+    position:absolute;
+    top: 20%;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+   
+    color: white;
+}
+
+.for .cont-form input{
+ width: 30rem;
+ background-color: transparent;
+ border: 0px transparent;
+ margin: 20px;
+ padding: 20px;
+ font-size: 18px;
+ border-bottom: 2px solid white;
+ color: white;
+
+}
+
+.for .cont-form input ~ span{
+    position: absolute;
+    left: 20px;
+    transition: .9s ease-in-out;
+    margin-top: 10px;
+}
+
+.for .cont-form input:focus ~ span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.for .cont-form textarea{
+    width: 30rem;
+    border: 0;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 40px 10px;
+}
+
+.for .cont-form input[type="textarea"]::-webkit-inner-spin-button,
+.for .cont-form input[type="textarea"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+
+
+.for .cont-form textarea ~ span{
+    position: absolute;
+    left: 20px;
+    transition: .9s ease-in-out;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+.for .cont-form textarea:focus ~ span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.for .cont-form button{
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-size: 18px;
+    width: 45%;
+    height: 40px;
+    color: white;
+    position: relative;
+    left: 10%;
+   
+   
+}
+.for .cont-form button:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+.media{
+    position: absolute;
+    top: 92vh;
+    left: 10%;
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.media li a{
+    margin: 20px 30px;
+    color: white;
+}
+
+.media li a:hover{
+    color: orange;
+    transition: .7s ease;
+    transform: rotate(360deg);
+}
+
+.cwu{
+    position: absolute;
+    top: 85vh;
+    left: 15%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

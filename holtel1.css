@@ -1,0 +1,2418 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://www.indifi.com/blog/wp-content/uploads/2020/03/Offers-to-Customers-For-Travel-Agencies-.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: fixed;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://www.indifi.com/blog/wp-content/uploads/2020/03/Offers-to-Customers-For-Travel-Agencies-.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: fixed;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 10px;
+    position: absolute;
+    left: 15%;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 44px;
+    border: 1px transparent white;
+    transition: 0.6s ease;
+    border-radius: 10px;
+}
+ 
+ul li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.search{
+    width: 330px;
+    float:right;
+    margin-left: 270px;
+    position: absolute;
+    left: 50%;
+}
+
+.srh{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 30px;
+    color: rgb(255, 252, 252);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+::placeholder{
+    color: white;
+}
+.btn{
+    position: absolute;
+   top: 22%;
+    width: 30%;
+    height: 43px;
+    height: 43px;
+    background: yellow;
+    border: 2px solid black;
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: 400;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srh:focus{
+    outline: none;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+}
+.form{
+    border: 2px transparent red;
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 69%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+    box-shadow: 4px 2px black;
+}
+.form p{
+    color: white;
+}
+.form::placeholder{
+    color: black;
+}
+.form h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 10px;
+    width: 95%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 3%;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+.form input:focus{
+    outline: none;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    position: relative;
+    left: 10%;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+   
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.form .liw{
+    text-align: center;
+}
+.icn{
+    border: 2px transparent green;
+    height: 60px;
+    width: 120%;
+    
+}
+.icn a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 5%;
+    padding: 0 13px;
+}
+.icn a:hover{
+    color: orange;
+    transition: 1s ease;
+}
+.main{
+    max-width: 1900px;
+    margin: auto;
+}
+.main .booksec{
+    border: 2px transparent rgb(0, 255, 132);
+    width: 90%;
+    height: 8%;
+   position: absolute;
+   left: 5%;
+   top: 25%;
+   display: flex;
+   background: linear-gradient(to top, rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+ 
+  background: black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px black;
+}
+.main .booksec .stay{
+    border: 2px transparent red;
+    position: relative;
+    
+    left: 1%;
+    outline: none;
+   
+}
+
+
+.main .booksec .stay .icon{
+   border: 2px transparent blueviolet;
+   position: relative;
+   top: 25%;
+   color: white;
+}
+
+.main .booksec .stay select{
+    font-size: medium;
+    font-weight: 500;
+    padding: 8px 55px;
+    box-sizing: border-box;
+   
+   
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   color: white;
+   background: black;
+    outline: none;
+}
+
+.main .booksec .stay input:focus{
+    outline: none;
+}
+.main .booksec .date{
+    border: 2px transparent red;
+   
+    width: 15%;
+    position: relative;
+    top: -2%;
+    left: 2%;
+   
+  
+}
+.main .booksec .date input{
+    font-size: medium;
+    font-weight: 500;
+    padding: 8px 10px;
+    box-sizing: border-box;
+   
+   position: relative;
+     top: 9%;
+    left: 23%;
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+    color-scheme: white;
+   
+}
+.main .booksec .date input[type="date"]::-webkit-inner-spin-button,
+.main .booksec .date input[type="date"]::-webkit-calender-picker-indicator
+{
+   -webkit-appearance: push-button;
+   
+}
+.main .booksec .date input:focus{
+    outline: none;
+}
+
+
+
+.main .booksec .date .icon1{
+    border: 2px transparent blueviolet;
+    position: absolute;
+    top: 25%;
+    color: white;
+ }
+
+
+
+ .main .booksec .adults{
+    border: 2px transparent red;
+   height: 90%;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+   left: 57%;
+   
+  
+}
+.main .booksec .adults input{
+  font-weight: 500;
+  width: 20%;
+  padding: 9px 10px;
+  background: transparent;
+  border-bottom: 2px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+
+    
+}
+
+.main .booksec .adults input:focus{
+    outline: none;
+}
+
+.main .booksec .adults input[type="number"]::-webkit-outer-spin-button,
+.main .booksec .adults input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main .booksec .adults .icon3{
+    font-weight: 600;
+    color: white;
+   
+}
+
+
+
+
+.main .booksec .adults1{
+    border: 2px transparent red;
+   height: 90%;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+   left: 67%;
+   
+  
+}
+.main .booksec .adults1 input{
+  font-weight: 500;
+  width: 20%;
+  padding: 9px 10px;
+  background: transparent;
+  border-bottom: 2px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+
+    
+}
+
+.main .booksec .adults1 input:focus{
+    outline: none;
+}
+
+.main .booksec .adults1 input[type="number"]::-webkit-outer-spin-button,
+.main .booksec .adults1 input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main .booksec .adults1 .icon4{
+    font-weight: 600;
+    color: white;
+   
+}
+.main .booksec .btn{
+    position: absolute;
+    top: 10%;
+   left: 89%;
+  
+}
+
+.main .booksec .bton a{
+    text-align: center;
+    display: inline-block;
+    padding: 8px 40px;
+    background: yellow;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 4px 4px 4px black;
+    position: absolute;
+    top: 10%;
+   left: 88%;
+}
+
+
+
+.main .booksec .adults2{
+    border: 2px transparent red;
+   height: 90%;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+   left: 78%;
+   
+  
+}
+.main .booksec .adults2 input{
+  font-weight: 500;
+  width: 20%;
+  padding: 9px 10px;
+  background: transparent;
+  border-bottom: 2px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+
+    
+}
+
+.main .booksec .adults2 input:focus{
+    outline: none;
+}
+
+.main .booksec .adults2 input[type="number"]::-webkit-outer-spin-button,
+.main .booksec .adults2 input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main .booksec .adults2 .icon5{
+    font-weight: 600;
+    color: white;
+   
+}
+
+
+ .main .booksec .date1{
+    border: 2px transparent red;
+   
+    width: 15%;
+    position: absolute;
+    
+    top: 10%;
+    left: 39%;
+   
+  
+}
+.main .booksec .date1 input{
+    font-size: medium;
+    font-weight: 500;
+    padding: 8px 10px;
+    box-sizing: border-box;
+ 
+   position: relative;
+     top: 9%;
+    left: 23%;
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+   
+}
+
+.main .booksec .date1 input:focus{
+    outline: none;
+}
+
+.main .booksec .date1 .icon2{
+    border: 2px transparent blueviolet;
+    position: absolute;
+    top: 25%;
+    color: white;
+ }
+
+ .main .selected{
+    border: 2px transparent green;
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    top: 37%;
+ }
+
+
+ .main .selected h1{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+ }
+
+
+.desc{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.desc h1{
+    color: rgb(231, 221, 221);
+    font-size: 70px;
+}
+.caption{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.caption h6{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.content{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+   
+}
+.content a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+
+.broucher{
+    display: flex;
+    width: 90%;
+    height: 30%;
+    border: 2px transparent blue;
+    position: absolute;
+    left: 7%;
+    top: 42%;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.broucher .hotel3{
+    width: 26%;
+    height: 102%;
+    border: 2px transparent red;
+    box-sizing: border-box;
+    display: flex;
+     overflow: hidden;
+}
+.broucher .hotel3 img{
+    height: 221px;
+    width: 360px;
+    transition: transform  2s;
+    border-radius: 10%;
+}
+.broucher .hotel3:hover img{
+    transform: scale(1.2);
+}
+.broucher .desc3{
+    width: 60%;
+    height: 100%;
+    border: 2px transparent red;
+    background-color: white;
+    border-radius: 8%;
+    display: flex;
+    box-shadow: 4px 4px 4px black;
+    position: absolute;
+    left: 27%;
+}
+.broucher .desc3 a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    border-radius: 8%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-weight: 700;
+    font-size: larger;
+}
+.broucher .desc3 a:hover{
+
+    color: black
+    transition: 0.6s ease;
+}
+.broucher .desc3 .book2{
+    width: 40%;
+    height: 40%;
+    border: 2px transparent blue;
+    position: absolute;
+    top: 19%;
+    left: 3%;
+}
+.broucher .desc3 .book2  a img{
+    height: 43px;
+    width: 200px;
+    position: absolute;
+    top: 15%;
+    left: 53%;
+}
+.broucher .desc3 .book2 a{
+
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+.broucher .desc3  .view2{
+    width: 35%;
+    height: 35%;
+    border: 2px transparent blue;
+    position: absolute;
+    left: 2%;
+    top: 48%;
+}
+.broucher .desc3  .view2 p{
+    position: absolute;
+    left: 11%;
+    top: 10%;
+
+}
+
+.broucher .desc3  .view2 p select{
+    padding: 8px 5px;
+    font-weight: 900;
+}
+
+
+
+
+.broucher .desc3  .view2 a{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 40px;
+    background: yellow;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 4px 4px 4px black;
+}
+
+.broucher .info2{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    right: 10%;
+    width: 53%;
+     height: 70%;
+    border: 2px transparent blue;
+   display: flex;
+}
+
+.broucher .info2 .visit2{
+    border: 2px transparent red;
+    width: 50%;
+    display: inline;
+    position: relative;
+    top: 8%;
+    border-left: 1px solid gray;
+   
+}
+
+.broucher .info2 .visit2 a{
+    position: relative;
+    left: 14%;
+    top: 7%;
+    right: 10%;
+    font-weight: 400;
+    font-size: small;
+}
+
+.broucher .info2 .visit2 .phone2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent green;
+    position: relative;
+    left: 0;
+    top: 15%;
+}
+.broucher .info2 .visit2 .phone2 a{
+    font-weight: 400;
+    font-size: small;
+}
+.broucher .info2 .visit2 .email2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent green;
+    position: relative;
+   align-items: left;
+    top: 20%;
+}
+.broucher .info2 .visit2 .email2 a{
+    font-weight: 400;
+    font-size: small;
+}
+
+.broucher .info2   .review2{
+    border: 2px transparent green;
+    width: 50%;
+    position: relative;
+    top: 8%;
+    border-left: 1px solid gray;
+    
+}
+
+.broucher .info2   .review2 .wifi2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent red;
+    position: relative;
+    top: 8%;
+    left: 2%;
+   
+}
+.broucher .info2   .review2 .wifi2 a{
+    font-weight: 400;
+    font-size: small;
+    position: relative;
+    left: 2%;
+}
+
+.broucher .info2   .review2 .pool2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent red;
+    position: relative;
+    top: 5%;
+   
+}
+.broucher .info2  .review2 .pool2 a{
+    font-weight: 400;
+    font-size: small;
+    position: relative;
+    left: 5%;
+    top: 9%;
+
+}
+
+.broucher .info2 .review2 .beach2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent red;
+}
+.broucher .info2  .review2 .beach2 a{
+    font-weight: 400;
+    font-size: small;
+    position: relative;
+    left: 5%;
+    top: 25%;
+}
+.broucher .info2  .review2 .restraunt2{
+    width: 100%;
+    height: 20%;
+    border: 2px transparent red;
+}
+.broucher .info2  .review2 .restraunt2 a{
+    font-weight: 400;
+    font-size: small;
+    position: relative;
+    left: 5%;
+    top: 9%;
+}
+
+.broucher .info2   .offer{
+    border: 2px transparent red;
+    width: 50%;
+    position: relative;
+    top: 7%;
+    border-left: 1px solid gray;
+    
+}
+
+.broucher .info2   .offer .cus{
+    border: 2px transparent green;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 7%;
+}
+
+.broucher .info2   .offer .cus a{
+    font-weight: 500;
+    
+    font-size: small;
+    position: relative;
+    top: 5%;
+    left: 3%;
+} 
+
+.broucher .info2   .offer .cus a p{
+
+    font-size: 400;
+}
+
+.broucher .info2   .offer  .luv{
+    border: 2px transparent green;
+    width: 150%;
+    height: 20%;
+    position: relative;
+    top: 4%;
+}
+
+.broucher .info2   .offer  .luv a{
+    font-weight: 500;
+    
+    font-size: small;
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+
+.broucher .info2   .offer  .lux{
+    border: 2px transparent green;
+    width: 150%;
+    height: 20%;
+    position: relative;
+    top: 4%;
+}
+
+.broucher .info2   .offer  .lux a{
+    font-weight: 500;
+    
+    font-size: small;
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+
+
+
+
+    
+    /*broucher2*/
+
+    .broucher1{
+        display: flex;
+        width: 90%;
+        height: 30%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 7%;
+        top: 75%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    .broucher1 .hotel3{
+        width: 26%;
+        height: 102%;
+        border: 2px transparent red;
+        box-sizing: border-box;
+        display: flex;
+         overflow: hidden;
+    }
+    .broucher1 .hotel3 img{
+        height: 221px;
+        width: 360px;
+        transition: transform  2s;
+        border-radius: 10%;
+    }
+    .broucher1 .hotel3:hover img{
+        transform: scale(1.2);
+    }
+    .broucher1 .desc3{
+        width: 60%;
+        height: 100%;
+        border: 2px transparent red;
+        background-color: white;
+        border-radius: 8%;
+        display: flex;
+        box-shadow: 4px 4px 4px black;
+        position: absolute;
+        left: 27%;
+    }
+    .broucher1 .desc3 a{
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        border-radius: 8%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    .broucher1 .desc3 a:hover{
+    
+        color: black
+        transition: 0.6s ease;
+    }
+    .broucher1 .desc3 .book2{
+        width: 40%;
+        height: 40%;
+        border: 2px transparent blue;
+        position: absolute;
+        top: 8%;
+        left: 3%;
+    }
+    .broucher1 .desc3 .book2  a img{
+        height: 80px;
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+    }
+    .broucher1 .desc3 .book2 a{
+    
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+
+    .broucher1 .desc3  .view2{
+        width: 35%;
+        height: 35%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 2%;
+        top: 48%;
+    }
+    .broucher1 .desc3  .view2 p{
+        position: absolute;
+        left: 11%;
+        top: 10%;
+    
+    }
+
+    .broucher1 .desc3  .view2 p select{
+        padding: 8px 5px;
+        font-weight: 900;
+    }
+    
+    
+    
+    
+    .broucher1 .desc3  .view2 a{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 40px;
+        background: yellow;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    .broucher1 .info2{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        right: 10%;
+        width: 53%;
+         height: 70%;
+        border: 2px transparent blue;
+       display: flex;
+    }
+
+    .broucher1 .info2 .visit2{
+        border: 2px transparent red;
+        width: 50%;
+        display: inline;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+       
+    }
+    
+    .broucher1 .info2 .visit2 a{
+        position: relative;
+        left: 14%;
+        top: 7%;
+        right: 10%;
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher1 .info2 .visit2 .phone2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+        left: 0;
+        top: 15%;
+    }
+    .broucher1 .info2 .visit2 .phone2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    .broucher1 .info2 .visit2 .email2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+       align-items: left;
+        top: 20%;
+    }
+    .broucher1 .info2 .visit2 .email2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher1 .info2   .review2{
+        border: 2px transparent green;
+        width: 50%;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher1 .info2   .review2 .wifi2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 8%;
+        left: 2%;
+       
+    }
+    .broucher1 .info2   .review2 .wifi2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 2%;
+    }
+    
+    .broucher1 .info2   .review2 .pool2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 5%;
+       
+    }
+    .broucher1 .info2  .review2 .pool2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    
+    }
+    
+    .broucher1 .info2 .review2 .beach2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher1 .info2  .review2 .beach2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+    .broucher1 .info2  .review2 .restraunt2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher1 .info2  .review2 .restraunt2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    }
+
+    .broucher1 .info2   .offer{
+        border: 2px transparent red;
+        width: 50%;
+        position: relative;
+        top: 7%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher1 .info2   .offer .cus{
+        border: 2px transparent green;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        top: 7%;
+    }
+    
+    .broucher1 .info2   .offer .cus a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    } 
+    
+    .broucher1 .info2   .offer .cus a p{
+    
+        font-size: 400;
+    }
+    
+    .broucher1 .info2   .offer  .luv{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher1 .info2   .offer  .luv a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    .broucher1 .info2   .offer  .lux{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher1 .info2   .offer  .lux a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    
+
+
+    /*broucher3*/
+
+    .broucher2{
+        display: flex;
+        width: 90%;
+        height: 30%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 7%;
+        top: 110%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    .broucher2 .hotel3{
+        width: 26%;
+        height: 102%;
+        border: 2px transparent red;
+        box-sizing: border-box;
+        display: flex;
+         overflow: hidden;
+    }
+    .broucher2 .hotel3 img{
+        height: 221px;
+        width: 360px;
+        transition: transform  2s;
+        border-radius: 10%;
+    }
+    .broucher2 .hotel3:hover img{
+        transform: scale(1.2);
+    }
+    .broucher2 .desc3{
+        width: 60%;
+        height: 100%;
+        border: 2px transparent red;
+        background-color: white;
+        border-radius: 8%;
+        display: flex;
+        box-shadow: 4px 4px 4px black;
+        position: absolute;
+        left: 27%;
+    }
+    .broucher2 .desc3 a{
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        border-radius: 8%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    .broucher2 .desc3 a:hover{
+    
+        color: black
+        transition: 0.6s ease;
+    }
+    .broucher2 .desc3 .book2{
+        width: 40%;
+        height: 40%;
+        border: 2px transparent blue;
+        position: absolute;
+        top: 18%;
+        left: 6%;
+    }
+    .broucher2 .desc3 .book2  a img{
+        height: 43px;
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+    }
+    .broucher2 .desc3 .book2 a{
+    
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+
+    .broucher2 .desc3  .view2{
+        width: 35%;
+        height: 35%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 2%;
+        top: 48%;
+    }
+    .broucher2 .desc3  .view2 p{
+        position: absolute;
+        left: 11%;
+        top: 10%;
+    
+    }
+
+    .broucher2 .desc3  .view2 p select{
+        padding: 8px 5px;
+        font-weight: 900;
+    }
+    
+    
+    
+    
+    .broucher2 .desc3  .view2 a{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 40px;
+        background: yellow;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    .broucher2 .info2{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        right: 10%;
+        width: 53%;
+         height: 70%;
+        border: 2px transparent blue;
+       display: flex;
+    }
+
+    .broucher2 .info2 .visit2{
+        border: 2px transparent red;
+        width: 50%;
+        display: inline;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+       
+    }
+    
+    .broucher2 .info2 .visit2 a{
+        position: relative;
+        left: 14%;
+        top: 7%;
+        right: 10%;
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher2 .info2 .visit2 .phone2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+        left: 0;
+        top: 15%;
+    }
+    .broucher2 .info2 .visit2 .phone2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    .broucher2 .info2 .visit2 .email2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+       align-items: left;
+        top: 20%;
+    }
+    .broucher2 .info2 .visit2 .email2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher2 .info2   .review2{
+        border: 2px transparent green;
+        width: 50%;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher2 .info2   .review2 .wifi2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 8%;
+        left: 2%;
+       
+    }
+    .broucher2 .info2   .review2 .wifi2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 2%;
+    }
+    
+    .broucher2 .info2   .review2 .pool2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 5%;
+       
+    }
+    .broucher2 .info2  .review2 .pool2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    
+    }
+    
+    .broucher2 .info2 .review2 .beach2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher2 .info2  .review2 .beach2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+    .broucher2 .info2  .review2 .restraunt2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher2 .info2  .review2 .restraunt2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    }
+
+    .broucher2 .info2   .offer{
+        border: 2px transparent red;
+        width: 50%;
+        position: relative;
+        top: 7%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher2 .info2   .offer .cus{
+        border: 2px transparent green;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        top: 7%;
+    }
+    
+    .broucher2 .info2   .offer .cus a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    } 
+    
+    .broucher2 .info2   .offer .cus a p{
+    
+        font-size: 400;
+    }
+    
+    .broucher2 .info2   .offer  .luv{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher2 .info2   .offer  .luv a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    .broucher2 .info2   .offer  .lux{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher2 .info2   .offer  .lux a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    /*broucher4*/
+
+    .broucher4{
+        display: flex;
+        width: 90%;
+        height: 30%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 7%;
+        top: 143%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    .broucher4 .hotel3{
+        width: 26%;
+        height: 102%;
+        border: 2px transparent red;
+        box-sizing: border-box;
+        display: flex;
+         overflow: hidden;
+    }
+    .broucher4 .hotel3 img{
+        height: 221px;
+        width: 360px;
+        transition: transform  2s;
+        border-radius: 10%;
+    }
+    .broucher4 .hotel3:hover img{
+        transform: scale(1.2);
+    }
+    .broucher4 .desc3{
+        width: 60%;
+        height: 100%;
+        border: 2px transparent red;
+        background-color: white;
+        border-radius: 8%;
+        display: flex;
+        box-shadow: 4px 4px 4px black;
+        position: absolute;
+        left: 27%;
+    }
+    .broucher4 .desc3 a{
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        border-radius: 8%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    .broucher4 .desc3 a:hover{
+    
+        color: black
+        transition: 0.6s ease;
+    }
+    .broucher4 .desc3 .book2{
+        width: 40%;
+        height: 40%;
+        border: 2px transparent blue;
+        position: absolute;
+        top: 8%;
+        left: 3%;
+    }
+    .broucher4 .desc3 .book2  a img{
+        height: 80px;
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+    }
+    .broucher4 .desc3 .book2 a{
+    
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+
+    .broucher4 .desc3  .view2{
+        width: 35%;
+        height: 35%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 2%;
+        top: 48%;
+    }
+    .broucher4 .desc3  .view2 p{
+        position: absolute;
+        left: 11%;
+        top: 10%;
+    
+    }
+
+    .broucher4 .desc3  .view2 p select{
+        padding: 8px 5px;
+        font-weight: 900;
+    }
+    
+    
+    
+    
+    .broucher4 .desc3  .view2 a{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 40px;
+        background: yellow;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    .broucher4 .info2{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        right: 10%;
+        width: 53%;
+         height: 70%;
+        border: 2px transparent blue;
+       display: flex;
+    }
+
+    .broucher4 .info2 .visit2{
+        border: 2px transparent red;
+        width: 50%;
+        display: inline;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+       
+    }
+    
+    .broucher4 .info2 .visit2 a{
+        position: relative;
+        left: 14%;
+        top: 7%;
+        right: 10%;
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher4 .info2 .visit2 .phone2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+        left: 0;
+        top: 15%;
+    }
+    .broucher4 .info2 .visit2 .phone2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    .broucher4 .info2 .visit2 .email2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+       align-items: left;
+        top: 20%;
+    }
+    .broucher4 .info2 .visit2 .email2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher4 .info2   .review2{
+        border: 2px transparent green;
+        width: 50%;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher4 .info2   .review2 .wifi2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 8%;
+        left: 2%;
+       
+    }
+    .broucher4 .info2   .review2 .wifi2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 2%;
+    }
+    
+    .broucher4 .info2   .review2 .pool2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 5%;
+       
+    }
+    .broucher4 .info2  .review2 .pool2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    
+    }
+    
+    .broucher4 .info2 .review2 .beach2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher4 .info2  .review2 .beach2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+    .broucher4 .info2  .review2 .restraunt2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher4 .info2  .review2 .restraunt2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    }
+
+    .broucher4 .info2   .offer{
+        border: 2px transparent red;
+        width: 50%;
+        position: relative;
+        top: 7%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher4 .info2   .offer .cus{
+        border: 2px transparent green;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        top: 7%;
+    }
+    
+    .broucher4 .info2   .offer .cus a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    } 
+    
+    .broucher4 .info2   .offer .cus a p{
+    
+        font-size: 400;
+    }
+    
+    .broucher4 .info2   .offer  .luv{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher4 .info2   .offer  .luv a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    .broucher4 .info2   .offer  .lux{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher4 .info2   .offer  .lux a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+
+    /*broucher5*/
+
+    .broucher5{
+        display: flex;
+        width: 90%;
+        height: 30%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 7%;
+        top: 175%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    .broucher5 .hotel3{
+        width: 26%;
+        height: 102%;
+        border: 2px transparent red;
+        box-sizing: border-box;
+        display: flex;
+         overflow: hidden;
+    }
+    .broucher5 .hotel3 img{
+        height: 221px;
+        width: 360px;
+        transition: transform  2s;
+        border-radius: 10%;
+    }
+    .broucher5 .hotel3:hover img{
+        transform: scale(1.2);
+    }
+    .broucher5 .desc3{
+        width: 60%;
+        height: 100%;
+        border: 2px transparent red;
+        background-color: white;
+        border-radius: 8%;
+        display: flex;
+        box-shadow: 4px 4px 4px black;
+        position: absolute;
+        left: 27%;
+    }
+    .broucher5 .desc3 a{
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        border-radius: 8%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    .broucher5 .desc3 a:hover{
+    
+        color: black
+        transition: 0.6s ease;
+    }
+    .broucher5 .desc3 .book2{
+        width: 40%;
+        height: 40%;
+        border: 2px transparent blue;
+        position: absolute;
+        top: 8%;
+        left: 3%;
+    }
+    .broucher5 .desc3 .book2  a img{
+        height: 80px;
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+    }
+    .broucher5 .desc3 .book2 a{
+    
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+
+    .broucher5 .desc3  .view2{
+        width: 35%;
+        height: 35%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 2%;
+        top: 48%;
+    }
+    .broucher5 .desc3  .view2 p{
+        position: absolute;
+        left: 11%;
+        top: 10%;
+    
+    }
+
+    .broucher5 .desc3  .view2 p select{
+        padding: 8px 5px;
+        font-weight: 900;
+    }
+    
+    
+    
+    
+    .broucher5 .desc3  .view2 a{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 40px;
+        background: yellow;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    .broucher5 .info2{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        right: 10%;
+        width: 53%;
+         height: 70%;
+        border: 2px transparent blue;
+       display: flex;
+    }
+
+    .broucher5 .info2 .visit2{
+        border: 2px transparent red;
+        width: 50%;
+        display: inline;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+       
+    }
+    
+    .broucher5 .info2 .visit2 a{
+        position: relative;
+        left: 14%;
+        top: 7%;
+        right: 10%;
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher5 .info2 .visit2 .phone2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+        left: 0;
+        top: 15%;
+    }
+    .broucher5 .info2 .visit2 .phone2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    .broucher5 .info2 .visit2 .email2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+       align-items: left;
+        top: 20%;
+    }
+    .broucher5 .info2 .visit2 .email2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher5 .info2   .review2{
+        border: 2px transparent green;
+        width: 50%;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher5 .info2   .review2 .wifi2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 8%;
+        left: 2%;
+       
+    }
+    .broucher5 .info2   .review2 .wifi2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 2%;
+    }
+    
+    .broucher5 .info2   .review2 .pool2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 5%;
+       
+    }
+    .broucher5 .info2  .review2 .pool2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    
+    }
+    
+    .broucher5 .info2 .review2 .beach2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher5 .info2  .review2 .beach2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+    .broucher5 .info2  .review2 .restraunt2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher5 .info2  .review2 .restraunt2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    }
+
+    .broucher5 .info2   .offer{
+        border: 2px transparent red;
+        width: 50%;
+        position: relative;
+        top: 7%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher5 .info2   .offer .cus{
+        border: 2px transparent green;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        top: 7%;
+    }
+    
+    .broucher5 .info2   .offer .cus a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    } 
+    
+    .broucher5 .info2   .offer .cus a p{
+    
+        font-size: 400;
+    }
+    
+    .broucher5 .info2   .offer  .luv{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher5 .info2   .offer  .luv a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    .broucher5 .info2   .offer  .lux{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher5 .info2   .offer  .lux a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+
+    /*broucher6*/
+
+    .broucher6{
+        display: flex;
+        width: 90%;
+        height: 30%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 7%;
+        top: 207%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    .broucher6 .hotel3{
+        width: 26%;
+        height: 102%;
+        border: 2px transparent red;
+        box-sizing: border-box;
+        display: flex;
+         overflow: hidden;
+    }
+    .broucher6 .hotel3 img{
+        height: 221px;
+        width: 360px;
+        transition: transform  2s;
+        border-radius: 10%;
+    }
+    .broucher6 .hotel3:hover img{
+        transform: scale(1.2);
+    }
+    .broucher6 .desc3{
+        width: 60%;
+        height: 100%;
+        border: 2px transparent red;
+        background-color: white;
+        border-radius: 8%;
+        display: flex;
+        box-shadow: 4px 4px 4px black;
+        position: absolute;
+        left: 27%;
+    }
+    .broucher6 .desc3 a{
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        border-radius: 8%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    .broucher6 .desc3 a:hover{
+    
+        color: black
+        transition: 0.6s ease;
+    }
+    .broucher6 .desc3 .book2{
+        width: 40%;
+        height: 40%;
+        border: 2px transparent blue;
+        position: absolute;
+        top: 19%;
+        left: 3%;
+    }
+    .broucher6 .desc3 .book2  a img{
+        height: 43px;
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+    }
+    .broucher6 .desc3 .book2 a{
+    
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+
+    .broucher6 .desc3  .view2{
+        width: 35%;
+        height: 35%;
+        border: 2px transparent blue;
+        position: absolute;
+        left: 2%;
+        top: 48%;
+    }
+    .broucher6 .desc3  .view2 p{
+        position: absolute;
+        left: 11%;
+        top: 10%;
+    
+    }
+
+    .broucher6 .desc3  .view2 p select{
+        padding: 8px 5px;
+        font-weight: 900;
+    }
+    
+    
+    
+    
+    .broucher6 .desc3  .view2 a{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 40px;
+        background: yellow;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    .broucher6 .info2{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        right: 10%;
+        width: 53%;
+         height: 70%;
+        border: 2px transparent blue;
+       display: flex;
+    }
+
+    .broucher6 .info2 .visit2{
+        border: 2px transparent red;
+        width: 50%;
+        display: inline;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+       
+    }
+    
+    .broucher6 .info2 .visit2 a{
+        position: relative;
+        left: 14%;
+        top: 7%;
+        right: 10%;
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher6 .info2 .visit2 .phone2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+        left: 0;
+        top: 15%;
+    }
+    .broucher6 .info2 .visit2 .phone2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    .broucher6 .info2 .visit2 .email2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent green;
+        position: relative;
+       align-items: left;
+        top: 20%;
+    }
+    .broucher6 .info2 .visit2 .email2 a{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .broucher6 .info2   .review2{
+        border: 2px transparent green;
+        width: 50%;
+        position: relative;
+        top: 8%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher6 .info2   .review2 .wifi2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 8%;
+        left: 2%;
+       
+    }
+    .broucher6 .info2   .review2 .wifi2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 2%;
+    }
+    
+    .broucher6 .info2   .review2 .pool2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+        position: relative;
+        top: 5%;
+       
+    }
+    .broucher6 .info2  .review2 .pool2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    
+    }
+    
+    .broucher6 .info2 .review2 .beach2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher6 .info2  .review2 .beach2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+    .broucher6 .info2  .review2 .restraunt2{
+        width: 100%;
+        height: 20%;
+        border: 2px transparent red;
+    }
+    .broucher6 .info2  .review2 .restraunt2 a{
+        font-weight: 400;
+        font-size: small;
+        position: relative;
+        left: 5%;
+        top: 9%;
+    }
+
+    .broucher6 .info2   .offer{
+        border: 2px transparent red;
+        width: 50%;
+        position: relative;
+        top: 7%;
+        border-left: 1px solid gray;
+        
+    }
+
+    .broucher6 .info2   .offer .cus{
+        border: 2px transparent green;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        top: 7%;
+    }
+    
+    .broucher6 .info2   .offer .cus a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    } 
+    
+    .broucher6 .info2   .offer .cus a p{
+    
+        font-size: 400;
+    }
+    
+    .broucher6 .info2   .offer  .luv{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher6 .info2   .offer  .luv a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    .broucher6 .info2   .offer  .lux{
+        border: 2px transparent green;
+        width: 150%;
+        height: 20%;
+        position: relative;
+        top: 4%;
+    }
+    
+    .broucher6 .info2   .offer  .lux a{
+        font-weight: 500;
+        
+        font-size: small;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    
+    
+
+
+    
+    
+
+
+    
+
+
+    
